@@ -1,0 +1,24 @@
+{
+  "name": "koa-hello",
+  "version": "1.0.0",
+  "description": "Koa.js Hello, world!",
+  "main": "dist/index.js",
+  "author": "BugbearR <bugbearr@bugbearr.jp> (https://github.com/bugbearr)",
+  "license": "CC0-1.0",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "koa": "^2.11.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.6",
+    "eslint-plugin-jest": "^23.9.0",
+    "jest": "^26.0.1",
+    "jest-cli": "^26.0.1"
+  }
+}
