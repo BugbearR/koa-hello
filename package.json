@@ -10,15 +10,15 @@
     "start": "node dist/index.js"
   },
   "dependencies": {
-    "koa": "^2.11.0"
+    "koa": "^2.13.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.9.6",
-    "@babel/node": "^7.8.7",
-    "@babel/preset-env": "^7.9.6",
-    "eslint-plugin-jest": "^23.9.0",
-    "jest": "^26.0.1",
-    "jest-cli": "^26.0.1"
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.5",
+    "eslint-plugin-jest": "^24.0.0",
+    "jest": "^26.4.2",
+    "jest-cli": "^26.4.2"
   }
 }
